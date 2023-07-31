@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewporst" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=REM&display=swap" rel="stylesheet">
+    <title>João Victor Faraco | Portifólio</title>
+</head>
+
+<body>
+    <div class="animate__animated animate__fadeIn">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+            <div class="container-fluid">
+                <a class="navbar-brand animate__animated animate__rubberBand" href="#header" id="titulo">JV<span
+                        id="neon">/DEV</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" id="menu" aria-current="page" href="#about">Sobre</a>
+                        <a class="nav-link active" id="menu" aria-current="page" href="#habilidade">Habilidades</a>
+                        <a class="nav-link active" id="menu" aria-current="page" href="#projetos">Projetos</a>
+                        <a class="nav-link active" id="menu" aria-current="page" href="#footer">Contato</a>
+                        <div id="check" aria-current="page">
+                            <input type="checkbox" class="checkbox" id="chk" />
+                            <label class="label" for="chk">
+                                <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="background2">
+            <div class="espaco"></div>
+            <div class="espaco"></div>
+            <header id='header' class="max-width">
+
+                <div class="sobre">
+                    <span id="neon2" class="animated-text" style="margin: 0;">Bem Vindo!</span>
+                    <br>
+                    <br>
+                    <p>Sou João Victor Faraco Desenvolvedor Fullstack.
+                    <p>Estou trilhando o caminho da programação e desenvolvedor web. Gosto de
+                        criar
+                        soluções tecnológicas para o mundo real e sou viciado em aprender.</p>
+                    <a href="https://www.linkedin.com/in/joão-victor-faraco-01066423a/" target="_blank"><button
+                            type="button" class="btn btn-outline-light" id="conheca">Conheça mais sobre mim</button></a>
+                </div>
+                <div class="eu_borda ">
+                    <img src="./image/eu.jpg" id="eu">
+                </div>
+            </header>
+            <div id="espaco_grande"></div>
+            <span id="neon2" class="animated-text">Sobre Mim</span>
+            <section id="about" class="about max_width">
+                <div id="left">
+                    <h2>Além do código: <span id="neon3">quem sou eu?</span></h2>
+                    <p>Me conheça um pouco através das minhas redes sociais abaixo:</p>
+                    <div id="social_media">
+                        <a href="https://www.linkedin.com/in/joão-victor-faraco-01066423a/" class="footer-link"
+                            target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                        <a href="https://github.com/JvFaraco" class="footer-link" target="_blank"><i
+                                class="fa-brands fa-github" id="github"></i></a>
+                        <a href="https://www.instagram.com/jvfaraco/" class="footer-link" target="_blank"><i
+                                class="fa-brands fa-instagram" id="instagram"></i></a>
+                    </div>
+                </div>
+                <div id="right" class="right">
+                    <h2>Buscando Desafios e Conhecimento no Universo da Tecnologia</h2>
+                    <br>
+                    <p>
+                        Olá, Sou João Victor Faraco tenho 19 anos e moro na cidade São José em Santa Catarina,
+                        estudo
+                        Gestão
+                        de Tecnologia da Informação
+                        na Faculdade Estácio de Sá, encontrando-me na quarta fase do curso. Tenho uma paixão genuína
+                        por
+                        desafios e uma fome insaciável por conhecimento. O universo da tecnologia me fascina, e
+                        estou
+                        determinado a conquistar um futuro brilhante nessa área em constante evolução.
+                    </p>
+                </div>
+                <br>
+            </section>
+            <div id="espaco_grande"></div>
+            <div class="espaco" id="habilidade">
+            </div>
+            <div id="background3"><span id='neon2' class="animated-text"
+                    style="display: flex; justify-content: center; align-items: center;">Habilidades</span></div>
+        </div>
+        <br>
+        <section id="skills" class="skills max-width">
+            <div class="card" style="width: 18rem;">
+                <img src="./image/notebook.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Front-end</h5>
+                    <p class="card-text">Adquirindo experiência em HTML e JavaScript, utlizando junto o framework
+                        django.
+                    </p>
+                    <div id="borda_botao">
+                        <a href="#projects" type="button" id="card">Veja mais sobre</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./image/css.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Web Design</h5>
+                    <p class="card-text">Habilidade em criar layouts responsivos e criativos. Domínio de
+                        ferramentas CSS.</p>
+                    <div id="borda_botao">
+                        <a href="#projects" type="button" id="card">Veja mais sobre</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id='card1' style="width: 18rem;">
+                <img src="./image/suporte.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Suporte Técnico</h5>
+                    <p class="card-text">Conhecimento em Hardware e Software, experiência em auxiliar colegas de
+                        trabalho.</p>
+                    <div id="borda_botao" onclick="trocarcard()"><a type="button" id="card">
+                            Veja mais sobre</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id='card2' style="display: none; width: 18rem;">
+                <img src="./image/instituto.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Estágio em TI</h5>
+                    <p class="card-text">Oito meses estagiando com suporte técnico e análise no Instituto
+                        São
+                        José.</p>
+                    <div id="borda_botao" onclick="trocarcard()"><a type="button" id="card">
+                            Retornar ao card</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card3" style="width: 18rem;">
+                <img src="./image/python.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Back-End</h5>
+                    <p class="card-text">Três anos de estudos sobre a linguagem python. formada em python avançado
+                        na
+                        UDEMY.
+                    </p>
+                    <div id="borda_botao" onclick="trocarcard2()"><a type="button" id="card">
+                            Veja mais sobre</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id='card4' style="display: none; width: 18rem;">
+                <img src="./image/certificado curso python.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Curso Python</h5>
+                    <p class="card-text">Finalizado curso de Python avançado com certificado na UDEMY.</p>
+                    <div id="borda_botao" onclick="trocarcard2()"><a type="button" id="card">
+                            Retornar ao card</a>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </section>
+    <div class="espaco" id="projetos">
+    </div>
+    <div id="background4"></div>
+    <div id="background">
+        <div id="projeto">
+            <br>
+            <span id="neon2" class="animated-text">Projetos em Destaque </span>
+            <h2>De ideias abstratas a projetos bem-sucedidos, aqui estáo alguns dos meus trabalhos mais
+                recentes.</h2>
+        </div>
+        <div class="espaco">
+
+        </div>
+        <section id="projects" class="projects max-width">
+            <div id="projeto1">
+                <div id="left2">
+                    <h3> Site de Links para a terapeuta Franciany Madeira</h3>
+                    <br>
+
+                    <p> A função do projeto é fornecer aos clientes da terapeuta uma forma fácil de se conectar com
+                        todos os
+                        tipos de links servido pela profissional.
+                        <br>
+                        <br>
+                        Projeto em desenvolvimento como uma forma de desafio para conhecer mais as linguagens de
+                        marcação
+                        HTML e
+                        CSS.
+                        <br>
+                        <br>
+                        O aprendizado com tal projeto foi muito eficiente, este site me fez aprimorar minhas
+                        habilidades
+                        de
+                        linguagem principalmente em CSS.
+                        <br>
+                        <br>
+                        A terapeuta está consciente do site, e será um projeto que irá avançar futuramente.
+                    </p>
+                </div>
+                <div id="right2">
+                    <div id="borda_projetos">
+                        <img src="./image/fran site.jpeg" id="site_terapeuta">
+                    </div>
+                </div>
+            </div>
+            <div id="linha"></div>
+            <div id="projeto1">
+                <div id="left2">
+                    <h3>Agenda Digital para o condomínio Punta Del Este <br>No bairro Barreiros na cidade de São
+                        José,
+                        SC
+                    </h3>
+                    <br>
+                    <p>O projeto foi criado por conta de uma extensão da faculdade na qual eu estudo. Eu, junto com
+                        o
+                        meu
+                        grupo
+                        de 5 pessoas, criamos uma agenda digital para um condomínio.
+                        <br>
+                        <br>
+                        A agenda consiste em um aplicativo feito na linguagem Java, que tem as funções como marcar e
+                        remover
+                        eventos, e também,cadastrar funcionários e moradores do condomínio.
+                        <br>
+                        <br>
+                        Hoje ela é utilizada pelo condomínio facilitando o agendamento do salão de festas.
+                    </p>
+                </div>
+                <div id="right2">
+                    <div id="borda_projetos1">
+                        <img src="./image/gestao condo.png" id="gestao_condo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div class="footer_content max-width mb-0">
+            <h2>Vamos Conversar?</h2>
+            <p>Ficarei feliz em saber mais sobre seus projetos e como podemos trabalhar juntos para torná-los
+                realidade.
+            </p>
+            <div class="footer_contacts mb-m">
+                <a href="#" class="copy-email" data-email="joaovictorfaraco@gmail.com"><span
+                        id="email">E-mail:</span>joaovictorfaraco@gmail.com</a>
+                <div class="footer_contacts mb-m">
+                    <a href="#" class="copy-number" data-number="48991582388"><span
+                            id=numero>Número:</span>(48)99158-2388</a>
+                </div>
+                <div id="social_media">
+                    <a href="https://www.linkedin.com/in/joão-victor-faraco-01066423a/" class="footer-link"
+                        target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                    <a href="https://wa.me/5548991582388" class="footer-link" target="_blank"><i
+                            class="fa-brands fa-whatsapp" id="whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/jvfaraco/" class="footer-link" target="_blank"><i
+                            class="fa-brands fa-instagram" id="instagram"></i></a>
+                </div>
+                <br>
+                <span class="footer_copyright">
+                    ©️ 2023 João Victor Faraco. Todos os direitos reservados.
+                </span>
+            </div>
+    </footer>
+
+
+    </div>
+</body>
+<script src="/portifolio/app_portifolio/static/script/home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script>
+    // Função para trocar os cards
+    function trocarcard() {
+        var card1 = document.getElementById('card1');
+        var card2 = document.getElementById('card2');
+
+
+        if (card1.style.display === 'none') {
+            card1.style.display = 'block';
+            card2.style.display = 'none';
+        } else {
+            card1.style.display = 'none';
+            card2.style.display = 'block';
+        }
+    }
+</script>
+<script>
+    function trocarcard2() {
+        var card3 = document.getElementById('card3');
+        var card4 = document.getElementById('card4');
+
+
+        if (card3.style.display === 'none') {
+            card3.style.display = 'block';
+            card4.style.display = 'none';
+        } else {
+            card3.style.display = 'none';
+            card4.style.display = 'block';
+        }
+    }
+</script>
+<script>
+    const chk = document.getElementById('chk')
+
+    chk.addEventListener('change', () => {
+        document.body.classList.toggle('light')
+    })
+</script>
+<script>
+    function showCustomAlert() {
+        const customAlert = document.getElementById('customAlert');
+        customAlert.style.display = 'flex';
+    }
+
+    function closeCustomAlert() {
+        const customAlert = document.getElementById('customAlert');
+        customAlert.style.display = 'none';
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const copyEmailLinks = document.querySelectorAll('.copy-email');
+
+        copyEmailLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const email = this.getAttribute('data-email');
+                copyToClipboard(email);
+            });
+        });
+
+        function copyToClipboard(text) {
+            const textField = document.createElement('textarea');
+            textField.innerText = text;
+            document.body.appendChild(textField);
+            textField.select();
+            document.execCommand('copy');
+            textField.remove();
+            alert('E-mail copiado para a área de transferência: ' + text);
+        }
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const copyNumberElements = document.querySelectorAll('.copy-number');
+
+        copyNumberElements.forEach(element => {
+            element.addEventListener('click', function () {
+                const number = this.getAttribute('data-number');
+                copyToClipboard(number);
+            });
+        });
+
+        function copyToClipboard(text) {
+            const textField = document.createElement('textarea');
+            textField.innerText = text;
+            document.body.appendChild(textField);
+            textField.select();
+            document.execCommand('copy');
+            textField.remove();
+            alert('Número copiado para a área de transferência: ' + text);
+        }
+    });
+</script>
+<script>const menu = document.getElementById('nav');
+
+    window.addEventListener('scroll', () => {
+        const scrollPos = window.scrollY;
+        const headerHeight = 100; // Ajuste a altura do cabeçalho conforme necessário
+
+        if (scrollPos > headerHeight) {
+            nav.style.opacity = '0.5'; // Define a opacidade desejada quando a página é rolada
+        } else {
+            nav.style.opacity = '1'; // Define a opacidade inicial do menu
+        }
+    });</script>
+
+</html>
